@@ -5,7 +5,7 @@ const server = require("http").createServer(app);
 const io = require("socket.io")(server, {
   cors: {
     origin: [
-      "https://Roomsy-rp4q.onrender.com", // Replace with your actual Render domain
+      "https://roomsy-v1.onrender.com", // Replace with your actual Render domain
       "http://localhost:3000"
     ],
     methods: ["GET", "POST"],
